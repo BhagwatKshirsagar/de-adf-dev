@@ -1,0 +1,15 @@
+{
+	"name": "de-azure-data-factory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "978a33f8-8448-47fc-80c8-1268f36af0e1",
+		"tenantId": "1007f0c9-7656-4631-9f3a-8be6688e98c5"
+	}
+}
